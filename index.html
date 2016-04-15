@@ -1,1 +1,303 @@
-Hello
+<!DOCTYPE html>
+<html class="cufon-active cufon-ready" xmlns="http://www.w3.org/1999/xhtml"><head><title>
+	
+    Jonathan Channon | Contact
+
+</title><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="Description" content="Contact Jonathan Channon via his contact form, email, letter, phone call, Twitter or LinkedIn.  If you want some software or website developed he's your man."> 
+
+		
+	<!--<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />-->
+	
+	<link rel="shortcut icon" type="image/x-icon" href="http://jonathanchannon.com/Content/favicon.ico">
+	
+	<link href="index_files/style.css" rel="stylesheet" type="text/css" media="all">
+	<link href="index_files/style-print.css" rel="stylesheet" type="text/css" media="print">
+	
+	<script src="index_files/ga.js" async="" type="text/javascript"></script><script type="text/javascript" src="index_files/jsapi"></script>
+	<script type="text/javascript" src="index_files/jquery.js"></script>
+	<meta name="google-site-verification" content="9bvoj2jXRyykef2Tg72C0Am15YBTqDF0RgeZ84tUytE">
+    <link href="index_files/css_002.css" rel="stylesheet" type="text/css">	
+
+	
+	<!-- //////// DD_belatedPNG - Png Fix for IE ////////  -->
+	<!--[if IE 6 ]>
+		<script type="text/javascript" src="_layout/js/DD_belatedPNG_0.0.7a-min.js"></script>
+		<script type="text/javascript">
+			DD_belatedPNG.fix('#header,#content,#footer');
+		</script>
+		
+		
+	<![endif]-->
+	
+	<script type="text/javascript" src="index_files/cufon-yui.js"></script><style type="text/css">cufon{text-indent:0!important;}@media screen,projection{cufon{display:inline!important;display:inline-block!important;position:relative!important;vertical-align:middle!important;font-size:1px!important;line-height:1px!important;}cufon cufontext{display:-moz-inline-box!important;display:inline-block!important;width:0!important;height:0!important;overflow:hidden!important;text-indent:-10000in!important;}cufon canvas{position:relative!important;}}@media print{cufon{padding:0!important;}cufon canvas{display:none!important;}}</style>
+	<script type="text/javascript" src="index_files/hattori_hanzo.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="index_files/css.css">
+	<script type="text/javascript" src="index_files/jquery_002.js"></script>
+		
+	<script type="text/javascript">
+	/* <![CDATA[ */	                                         
+		$(document).ready(function(){
+		
+			// font replacement
+			if ( ! ( $.browser.msie && ($.browser.version == 6) ) )
+			{ 	
+				$("h1#name").css({'font-size':'46px', 'padding-top':'20px' , 'margin-bottom':'0px' });
+				Cufon.replace('#portfolio h2, h2.cv-section-name, h1#name, h2.title'); // using cufon with IE6 breaks the layout in some cases
+				
+			}	
+			
+			$('#print').addClass('tip');
+			$('#download').addClass('tip');
+			
+			// tooltips
+			$('.tip').tipsy({gravity: 'e'});	//  apply class .tip to any <a> tag to make it's  title be displayed like a tooltip
+			$('.emailtip').tipsy({ gravity: 'n' }
+			);
+	        
+	        
+	        
+       
+        // Animate Social Media Icons
+        $("#social-media li a").hover(function() {
+            $(this).stop().animate({
+                paddingTop: "0px"
+            }, 100);
+        }, function() {
+            $(this).stop().animate({
+                paddingTop: "3px"
+            }, 100);
+        });
+
+        $('.tip-social-media').tipsy({ gravity: 'n' });
+
+        // contact form
+        $("#contact-form").submit(function() {
+            var str = $(this).serialize();
+
+            $.ajax({
+                type: "POST",
+                url: "Contact",
+                data: str,
+                success: function(msg) {
+                    $("#formstatus").ajaxComplete(function(event, request, settings) {
+                        if (msg == 'OK') { // Message Sent? Show the 'Thank You' message and hide the form
+                            result = '<div class="formstatusok">Your message has been sent. Thank you!</div>';
+                        }
+                        else {
+                            result = '<div class="formstatusok">' + msg + '</div>';
+                            Recaptcha.reload();
+                        }
+
+                        $(this).html(result);
+                        $(".textbox").val('');
+                        Recaptcha.reload();
+                    });
+                }
+
+            });
+            return false;
+        });
+
+
+
+		});
+	/* ]]> */			
+	</script> 
+	
+	
+	
+<script src="index_files/tVT26bBAVgDi7GWo-xguq6Oiq2LpaeO1XeReoe_9-s4.js" charset="UTF-8" type="text/javascript"></script><script src="index_files/346321714935914496.js" type="text/javascript"></script><style type="text/css">.recaptchatable td img{display:block}.recaptchatable .recaptcha_image_cell center img{height:57px}.recaptchatable .recaptcha_image_cell center{height:57px}.recaptchatable .recaptcha_image_cell{background-color:white;height:57px;padding:7px!important}.recaptchatable,#recaptcha_area tr,#recaptcha_area td,#recaptcha_area th{margin:0!important;border:0!important;border-collapse:collapse!important;vertical-align:middle!important}.recaptchatable *{margin:0;padding:0;border:0;color:black;position:static;top:auto;left:auto;right:auto;bottom:auto}.recaptchatable #recaptcha_image{position:relative;margin:auto;border:1px solid #dfdfdf!important}.recaptchatable #recaptcha_image #recaptcha_challenge_image{display:block}.recaptchatable #recaptcha_image #recaptcha_ad_image{display:block;position:absolute;top:0}.recaptchatable a img{border:0}.recaptchatable a,.recaptchatable a:hover{cursor:pointer;outline:none;border:0!important;padding:0!important;text-decoration:none;color:blue;background:none!important;font-weight:normal}.recaptcha_input_area{position:relative!important;background:none!important}.recaptchatable label.recaptcha_input_area_text{border:1px solid #dfdfdf!important;margin:0!important;padding:0!important;position:static!important;top:auto!important;left:auto!important;right:auto!important;bottom:auto!important}.recaptcha_theme_red label.recaptcha_input_area_text,.recaptcha_theme_white label.recaptcha_input_area_text{color:black!important}.recaptcha_theme_blackglass label.recaptcha_input_area_text{color:white!important}.recaptchatable #recaptcha_response_field{font-size:11pt}.recaptcha_theme_blackglass #recaptcha_response_field,.recaptcha_theme_white #recaptcha_response_field{border:1px solid gray}.recaptcha_theme_red #recaptcha_response_field{border:1px solid #cca940}.recaptcha_audio_cant_hear_link{font-size:7pt;color:black}.recaptchatable{line-height:1em;border:1px solid #dfdfdf!important}.recaptcha_error_text{color:red}.recaptcha_only_if_privacy{float:right;text-align:right;margin-right:7px}#recaptcha-ad-choices{position:absolute;height:15px;top:0;right:0}#recaptcha-ad-choices img{height:15px}.recaptcha-ad-choices-collapsed{width:30px;height:15px;display:block}.recaptcha-ad-choices-expanded{width:75px;height:15px;display:none}#recaptcha-ad-choices:hover .recaptcha-ad-choices-collapsed{display:none}#recaptcha-ad-choices:hover .recaptcha-ad-choices-expanded{display:block}
+
+.recaptcha_is_showing_audio .recaptcha_only_if_image,.recaptcha_isnot_showing_audio .recaptcha_only_if_audio,.recaptcha_had_incorrect_sol .recaptcha_only_if_no_incorrect_sol,.recaptcha_nothad_incorrect_sol .recaptcha_only_if_incorrect_sol{display:none !important}</style><script src="index_files/reload" type="text/javascript"></script></head>
+
+<body>
+    <noscript>
+		<div id="nojs">JavaScript seems to be Disabled! This website works best with JavaScript enabled.</div>
+	</noscript>
+	
+	<div id="wrap">
+	
+		<div id="header">
+			
+			<div id="block-top"></div>
+			
+			<div id="personal-info" class="fixed">
+				<a id="picture-of-you" href="http://jonathanchannon.com/resume"><img src="index_files/62e4df82d52221751142c68ee5d2ae0b.jpeg" alt="Header image" height="128" width="128"></a>
+				<h1 style="font-size: 46px; padding-top: 20px; margin-bottom: 0px;" id="name"><cufon style="width: 148px; height: 46px;" alt="Jonathan " class="cufon cufon-canvas"><canvas style="width: 198px; height: 52px; top: -6px; left: -2px;" height="52" width="198"></canvas><cufontext>Jonathan </cufontext></cufon><cufon style="width: 141px; height: 46px;" alt="Channon" class="cufon cufon-canvas"><canvas style="width: 182px; height: 52px; top: -6px; left: -2px;" height="52" width="182"></canvas><cufontext>Channon</cufontext></cufon></h1>
+				<h2 id="what-you-do">Software Engineer / Web Developer</h2>
+			</div>
+					
+			<ul id="nav" class="fixed">
+				<li><a href="http://jonathanchannon.com/">resume</a></li>
+				<li>/</li>
+				<li class="selected"><a href="http://jonathanchannon.com/contact">contact</a></li>
+				<li>/</li>
+				<li><a href="http://jonathanchannon.com/twitter">Twitter</a></li>
+				<li>/</li>
+				<li><a href="http://blog.jonathanchannon.com/">Blog</a></li>
+			</ul>
+
+			<div class="divider"></div>
+			
+		</div>
+
+        <div id="content" class="fixed">
+            
+    
+    <h2 class="title"><cufon style="width: 92px; height: 24px;" alt="Contact" class="cufon cufon-canvas"><canvas style="width: 111px; height: 27px; top: -3px; left: -1px;" height="27" width="111"></canvas><cufontext>Contact</cufontext></cufon></h2>	
+			<div id="contact" class="fixed">
+				
+				<div class="col-2 float-left padded-right"> 
+					
+					<p>Feel free to contact me by filling in the contact form, email, letter, phone call, <a href="http://www.twitter.com/jchannon">Twitter</a> or <a href="http://uk.linkedin.com/in/jonathanchannon">LinkedIn</a>.  
+					If you have a problem, if no one else can help, and if you can find him, maybe you can hire Jonathan Channon</p>
+
+					<form id="contact-form" class="fixed" action="/contact" method="post">
+						<fieldset>
+						    <input name="__RequestVerificationToken" value="aBeBVOUNYgP2w12oygBgEiJAf9T/JnKauOhAWOsMYnNTn3fodBgrN0HoviKEZf4gNVo+uFt6OMddT8MnZmd7Mh/AFeJ54lr47ChYY0ljWiyCXRtCM77GbYOGgjoIN/KqntVOJ2HAjZ0j52nQxbQvQ34XGysO+oQS1Xpmh78q1Ik=" type="hidden">
+							<p>
+								<input class="textbox" name="name" value="Name*" onfocus="if(this.value=='Name*')this.value='';" onblur="if(this.value=='')this.value='Name*';" type="text">
+							</p>
+			
+							<p>
+								<input class="textbox" name="email" value="Email*" onfocus="if(this.value=='Email*')this.value='';" onblur="if(this.value=='')this.value='Email*';" type="text">
+							</p>
+
+							<p>
+								<input class="textbox" name="subject" value="Subject*" onfocus="if(this.value=='Subject*')this.value='';" onblur="if(this.value=='')this.value='Subject*';" type="text">
+							</p>
+							<p>
+								<textarea class="textbox" name="message" rows="3" cols="25"></textarea>
+			
+							</p>
+							<div class="empty">
+                                  <script type="text/javascript">
+		var RecaptchaOptions = {
+			theme : 'clean',
+			tabindex : 0
+		};
+
+</script><script type="text/javascript" src="index_files/challenge">
+
+</script><script type="text/javascript" src="index_files/recaptcha.js"></script><div class=" recaptcha_nothad_incorrect_sol recaptcha_isnot_showing_audio" id="recaptcha_widget_div" style=""><div id="recaptcha_area"><table id="recaptcha_table" class="recaptchatable recaptcha_theme_clean"> <tbody><tr height="73"> <td class="recaptcha_image_cell" width="302"><center><div style="width: 300px; height: 57px;" id="recaptcha_image"><img id="recaptcha_challenge_image" alt="reCAPTCHA challenge image" src="index_files/image.jpeg" height="57" width="300"></div></center></td> <td style="padding: 10px 7px 7px 7px;"> <a title="Get a new challenge" id="recaptcha_reload_btn"><img src="index_files/refresh.png" id="recaptcha_reload" alt="Get a new challenge" height="18" width="25"></a> <a title="Get an audio challenge" id="recaptcha_switch_audio_btn" class="recaptcha_only_if_image"><img src="index_files/audio.png" id="recaptcha_switch_audio" alt="Get an audio challenge" height="15" width="25"></a><a title="Get a visual challenge" id="recaptcha_switch_img_btn" class="recaptcha_only_if_audio"><img src="index_files/text.png" id="recaptcha_switch_img" alt="Get a visual challenge" height="15" width="25"></a> <a title="Help" id="recaptcha_whatsthis_btn"><img alt="Help" src="index_files/help.png" id="recaptcha_whatsthis" height="16" width="25"></a> </td> <td style="padding: 18px 7px 18px 7px;"> <img src="index_files/logo.png" id="recaptcha_logo" alt="" height="36" width="71"> </td> </tr> <tr> <td style="padding-left: 7px;"> <div class="recaptcha_input_area" style="padding-top: 2px; padding-bottom: 7px;"> <span style="display: none;" id="recaptcha_challenge_field_holder"><input name="recaptcha_challenge_field" id="recaptcha_challenge_field" value="03AHJ_Vut17QSTCMgkwW3-Pgctsv6IEn_Niy38w5CkCxrVM-q_a-bYolYwb_Ex4__lDxzEkzfgfJlin5Nih5U89JHU5KQ1DyyrcuMbTyzHJXtPigr3REzh_xc2EqH-HodytKicg1PXrNFfzcXL223BkkldzQQVj6VOKvc9C6RQIKuh_h5z1ltxwemGVBq9c47gnGNEfmdCs_zUyHX77wHLy0GPz-Bka1MCdVaNccIdNkF6x2UMNIFtCZ_Z1FCN2wwTsC7UG5B04n34afNq0G0rIv2rpgsmIqnH7Q" type="hidden"></span><input autocomplete="off" placeholder="Type the text" style="border: 1px solid #3c3c3c; width: 302px;" name="recaptcha_response_field" id="recaptcha_response_field" type="text"> </div> </td> <td colspan="2"><span id="recaptcha_privacy" class="recaptcha_only_if_privacy"><a target="_blank" href="http://www.google.com/intl/en/policies/">Privacy &amp; Terms</a></span></td> </tr> </tbody></table> </div></div><noscript>
+		<iframe src="http://www.google.com/recaptcha/api/noscript?k=6LenCQgAAAAAAGnz7v6di8UrNWww7g22x0MjhCa7" width="500" height="300" frameborder="0">
+
+		</iframe><br /><textarea name="recaptcha_challenge_field" rows="3" cols="40"></textarea><input name="recaptcha_response_field" value="manual_challenge" type="hidden" />
+</noscript>                            
+                            </div>
+                            <p>
+								<input id="btn" name="submit" value="Send!" style="width:100px; cursor:pointer;" type="submit">
+							</p>
+                            
+							<p id="formstatus">
+							    
+							</p>
+						</fieldset>
+					</form>
+
+				</div>
+				<div class="col-3 float-left"> 
+					
+					<p>10 Coxs Close, North Cadbury<br> 
+					   Somerset, BA22 7DY<br>
+
+		
+					   Tel: +44 7974 666916<br>
+					   E-mail: <a href="mailto:jo%6Ea%74han.c%68%61nno%6E%40g%6Da%69l%2E%63o%6D">jonathan.channon@gmail.com</a><br>
+					   
+					 </p>
+	
+					<br>
+						
+					<div id="social">  
+					
+						<div id="tweet"></div>
+	                    <script>
+                            // Code goes here
+
+                            var twitterFetcher = function () { var d = null; return { fetch: function (a, b) { d = b; var c = document.createElement("script"); c.type = "text/javascript"; c.src = "http://cdn.syndication.twimg.com/widgets/timelines/" + a + "?&lang=en&callback=twitterFetcher.callback&suppress_response_codes=true&rnd=" + Math.random(); document.getElementsByTagName("head")[0].appendChild(c) }, callback: function (a) { var b = document.createElement("div"); b.innerHTML = a.body; a = b.getElementsByClassName("e-entry-title"); d(a) } } }();
+
+                            twitterFetcher.fetch('346321714935914496', function (tweets) {
+                                // Do what you want with your tweets here! For example:
+                                var x = 1;//tweets.length;
+                                var n = 0;
+                                var element = document.getElementById('tweet');
+                                var html = '';
+                                while (n < x) {
+                                    if (tweets[n].innerText) {
+                                        html += htmlEncode(tweets[n].innerText);
+                                    } else {
+                                        html += htmlEncode(tweets[n].textContent);
+                                    }
+                                    n++;
+                                }
+                                html += '';
+                                element.innerHTML = html;
+                            });
+        
+                            function htmlEncode(value) {
+                                //create a in-memory div, set it's inner text(which jQuery automatically encodes)
+                                //then grab the encoded contents back out.  The div never exists on the page.
+                                return $('<div/>').text(value).html();
+                            }
+                        </script>					
+						<ul id="social-media">
+							<li>
+
+								<a href="http://uk.linkedin.com/in/jonathanchannon" title="Linked InProfile" class="tip-social-media">
+									<img src="index_files/linkedin.png" alt="linkedin " height="28" width="28">
+								</a>
+							</li>
+							<li>
+								<a href="http://www.twitter.com/jchannon" title="Twitter Profile" class="tip-social-media">
+									<img src="index_files/twitter.png" alt="twitter icon" height="28" width="28">
+								</a>
+							</li>
+
+
+						</ul>
+					
+					</div>
+					
+				</div>
+				
+			</div>
+    
+    
+
+        </div>
+		
+		<div id="footer" class="fixed">
+			
+			<div class="divider2"></div>
+			
+			<p id="copyright">© 2016 Jonathan Channon. All rights reserved.</p>
+			<a href="#" id="top">ˆ Top</a>
+			
+		</div>
+		
+		<a class="tip" href="javascript:window.print()" id="print" title="">Print CV</a>
+		<a class="tip" href="http://jonathanchannon.com/Content/CV.docx" id="download" title="">Download CV</a>
+	
+	</div>
+	
+	<script type="text/javascript">Cufon.now();</script>
+	
+	<script type="text/javascript">
+
+	    var _gaq = _gaq || [];
+	    _gaq.push(['_setAccount', 'UA-7138405-3']);
+	    _gaq.push(['_trackPageview']);
+
+	    (function() {
+	        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	    })();
+
+    </script>
+
+
+</body></html>
